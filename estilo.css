@@ -1,0 +1,21 @@
+/* colors */
+
+:root {
+    --dark: #14140F;
+    --light: #F2EDDB;
+    --orange: #F26800;
+    --blue: #315D79;
+    --green1: #A3CCAB;
+    --green2: #34675C;
+    --green3: #053D38;
+
+}
+
+/* page config */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu Mono', monospace;
+}
