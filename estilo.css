@@ -1,13 +1,13 @@
 /* colors */
 
 :root {
-    --dark: #14140F;
-    --light: #F2EDDB;
-    --orange: #F26800;
-    --blue: #315D79;
-    --green1: #A3CCAB;
-    --green2: #34675C;
-    --green3: #053D38;
+    --dark: #090B0B;
+    --light: #E6E2DA;
+    --orange: #DB7A39;
+    --blue: #004FFA;
+    --blue2: #5E86C8;
+    --green1: #76996A;
+    --green2: #053D38; /*????*/
 
 }
 
@@ -18,4 +18,49 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Ubuntu Mono', monospace;
+    background-color: var(--light);
 }
+
+header{
+    background-color: var(--dark);
+    height: 150px;
+    width: 100%;
+}
+
+
+header figure img{
+    width: 180px;
+    height: 180px;
+    margin-top: 10px;
+}
+
+
+div {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+button{
+    border-style: none;
+    width: 240px;
+    height: auto;
+    margin-top: 85px;
+    font-size:x-large;
+    color: var(--dark);
+    justify-content: space-between;
+    background-color: var(--light);
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+div img {
+    width: 620px;
+    height: 850px;
+}
+
